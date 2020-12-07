@@ -31,10 +31,9 @@
 
 
 
-## 三.核心方法
+## 三.核心代码
 <br>分词处理<br>
-...
-int i=1;
+               int i=1;
 		char[] char_chg=chg.toCharArray();
 		for(char hz:char_chg){
 		    System.out.print(hz);
@@ -42,9 +41,9 @@ int i=1;
 		    	System.out.println(",");
 		    if (i%14==0)
 		    	System.out.println(".");
- ...  
+  
  <br>录入文件<br>
- ...
+
             FileReader fileReader = new FileReader("E:\\test.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             Writer writer = new FileWriter(new File("E:\\作业分词.txt"));
@@ -54,14 +53,14 @@ int i=1;
             bufferedReader.close();
             fileReader.close();
             writer.close();
-...
+
 <br>异常处理<br>
-...
+
 catch (IOException e) {
             e.printStackTrace();
         } catch (Exception e) {
             System.out.println("出现错误!");
-...
+
 
 ## 四.实验结果
 ## 五.实验感想
