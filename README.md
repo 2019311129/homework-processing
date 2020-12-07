@@ -36,11 +36,11 @@
                int i=1;
 		char[] char_chg=chg.toCharArray();
 		for(char hz:char_chg){
-		    System.out.print(hz);
-		    if (i%7==0&&i%14!=0)
-		    	System.out.println(",");
-		    if (i%14==0)
-		    	System.out.println(".");
+		System.out.print(hz);
+		if (i%7==0&&i%14!=0)
+		System.out.println(",");
+	        if (i%14==0)
+		System.out.println(".");
   
  <br>录入文件<br>
 
@@ -57,9 +57,10 @@
 <br>异常处理<br>
 
 catch (IOException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-            System.out.println("出现错误!");
+e.printStackTrace();
+}
+catch (Exception e) {
+System.out.println("出现错误!");
 
 
 ## 四.实验结果
